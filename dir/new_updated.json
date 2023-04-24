@@ -1,12 +1,13 @@
 {
     "blockly": false,
-    "blockly_xml": null,
+    "blockly_xml": "<xml></xml>",
     "category": "Uncategorized",
     "coa": {
         "data": {
             "clean": false,
             "code_block": "",
             "description": "",
+            "hash": "0fcdcbbe826ff358dfe9db5af54aa673d86554a1",
             "joint": {
                 "cells": []
             },
@@ -19,7 +20,7 @@
         "schema": "4",
         "version": "6.0.2.0"
     },
-    "create_time": "2023-04-24T22:44:42+00:00",
+    "create_time": "2023-04-24T23:10:17.800356+00:00",
     "draft_mode": true,
     "labels": [
         "events"
