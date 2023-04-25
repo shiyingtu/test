@@ -1,6 +1,6 @@
 {
-    "create_time": "2023-01-04T19:35:48.275812+00:00",
-    "custom_function_id": "0c42d4fafd7f8d2313721a1f1619b10a34ee656e",
+    "create_time": "2023-04-25T21:10:52.612570+00:00",
+    "custom_function_id": "f129d88d80f8a8d5f25f7ce987f7174f4311eb51",
     "description": "Separate a URL into its components using urlparse() from the urllib module of Python 3.",
     "draft_mode": false,
     "inputs": [
@@ -10,7 +10,7 @@
             ],
             "description": "The URL to parse",
             "input_type": "item",
-            "name": "input_url",
+            "name": "input_url_renamed",
             "placeholder": "artifact:*.cef.requestUrl"
         }
     ],
@@ -72,6 +72,6 @@
         }
     ],
     "outputs_type": "item",
-    "platform_version": "5.5.0.108488",
+    "platform_version": "6.0.2.122748",
     "python_version": "3"
 }
