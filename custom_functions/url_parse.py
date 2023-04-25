@@ -1,6 +1,6 @@
 def url_parse(input_url=None, **kwargs):
     """
-    Separate a URL into its components using urlparse() from the urllib module of Python 3.
+    Separate a URL into its components using urlparse() from the urllib module of Python 3. wowka;ld
     
     Args:
         input_url (CEF type: url): The URL to parse
@@ -19,23 +19,11 @@ def url_parse(input_url=None, **kwargs):
     ############################ Custom Code Goes Below This Line #################################
     import json
     import phantom.rules as phantom
-    from urllib.parse import urlparse
     
     outputs = {}
-    if input_url:
-        parsed = urlparse(input_url)
-        outputs = {
-            'scheme': parsed.scheme, 
-            'hostname': parsed.hostname,
-            'netloc': parsed.netloc, 
-            'path': parsed.path, 
-            'port': parsed.port,
-            'params': parsed.params, 
-            'query': parsed.query, 
-            'fragment': parsed.fragment, 
-            'output_url': input_url
-        }
-                
+    
+    # Write your custom code here...
+    
     # Return a JSON-serializable object
     assert json.dumps(outputs)  # Will raise an exception if the :outputs: object is not JSON-serializable
     return outputs
