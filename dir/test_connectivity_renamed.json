@@ -7,6 +7,7 @@
             "clean": false,
             "code_block": "",
             "description": "A custom code Playbook that runs 'test connectivity' to check the configuration status of all possible assets currently configured.",
+            "hash": "bf6469456e2c9e8446772c46a6a24c06704d04be",
             "joint": {
                 "cells": []
             },
@@ -19,7 +20,7 @@
         "schema": "4",
         "version": "6.0.2.122748"
     },
-    "create_time": "2023-04-25T20:09:01+00:00",
+    "create_time": "2023-04-25T21:05:29.697187+00:00",
     "draft_mode": false,
     "labels": [
         "events"

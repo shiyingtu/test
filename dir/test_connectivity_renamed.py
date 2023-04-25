@@ -21,6 +21,6 @@ def on_start(incident):
 
 def on_finish(incident, summary):
 
-    phantom.debug("Summary: " + summary)
+    phantom.debug("Summarylol: " + summary)
 
     return
