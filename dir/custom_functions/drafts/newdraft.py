@@ -1,5 +1,10 @@
-def newdraft(**kwargs):
+def newdraft(kkk=None, **kwargs):
     """
+    popp[
+    
+    Args:
+        kkk
+    
     Returns a JSON-serializable object that implements the configured data paths:
         
     """
