@@ -1,5 +1,5 @@
 """
-This playbook runs the 'test connectivity' action on all possible assets currently configured.
+This playbook runs the 'test connectivity' action on all possible upsRWKJAS assets currently configured.
 """
 
 import phantom.rules as phantom
