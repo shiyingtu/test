@@ -1,6 +1,6 @@
 def url_parse(input_url=None, **kwargs):
     """
-    Separate a URL into its components using urlparse() from the urllib module of Python 3.
+    Separate a URL into its components using urlparse() fromdddd the urllib module of Python 3.
     
     Args:
         input_url (CEF type: url): The URL to parse
