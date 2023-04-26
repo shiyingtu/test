@@ -1,5 +1,8 @@
-def draft(**kwargs):
+def draft(ll=None, **kwargs):
     """
+    Args:
+        ll
+    
     Returns a JSON-serializable object that implements the configured data paths:
         
     """
