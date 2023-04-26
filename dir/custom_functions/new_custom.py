@@ -1,5 +1,10 @@
-def new_custom(**kwargs):
+def new_custom(test=None, **kwargs):
     """
+    lk;l;
+    
+    Args:
+        test
+    
     Returns a JSON-serializable object that implements the configured data paths:
         
     """
