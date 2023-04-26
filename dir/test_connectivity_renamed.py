@@ -14,7 +14,7 @@ def get_report_cb(action, success, incident, results, handle):
 
 def on_start(incident):
 
-    # run test con allll ddavailable assets or wharskdlsa;
+    # run test conk allll ddavailable assets or wharskdlsa;
     phantom.act('test csonnectivity', parameters=[], callback=get_report_cb)
 
     return
